@@ -3,3 +3,25 @@ languageCode = 'en-us'
 title = 'Ren Sugimoto Site'
 
 theme="ananke"
+
+[params]
+
+    [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = 5
+
+    [[menu.main]]
+    identifier = "posts"
+    name = "Posts"
+    url = "/Posts/"
+    weight = 5
+
+    [[params.ananke_socials]]
+    name = "instagram"
+    url = "https://www.instagram.com/re._0_6_5__/"
+
+    [[params.ananke_socials]]
+    name = "github"
+    url = "https://github.com/ren-sugimoto86"
